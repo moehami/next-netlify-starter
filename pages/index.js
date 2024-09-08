@@ -1,4 +1,4 @@
-//import styles from '../styles/Home.module.css';
+import styles from '../styles/globals.css';
 export default function Home() {
     const callAPI = async () => {
         try {
@@ -19,8 +19,8 @@ export default function Home() {
         }
     };
     return (
-        <div>
-            <main>
+        <div className={styles.container}>
+            <main className={styles.main}>
                 <button onClick={callAPI}>Make API call</button>
             </main>
         </div>
