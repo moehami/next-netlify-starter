@@ -7,7 +7,7 @@ export default function Home() {
                 {
                     method: 'GET',
                     headers: {
-                        'X-RapidAPI-Key': 'your-rapidapi-key',
+                        'X-RapidAPI-Key': 'a155812e96msh3d468699207ae72p1c60dbjsn964b74afebd5',
                         'X-RapidAPI-Host': 'famous-quotes4.p.rapidapi.com',
                     },
                 }
